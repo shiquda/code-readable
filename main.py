@@ -4,7 +4,7 @@ from cssbeautifier import beautify as css_beautify
 from bs4 import BeautifulSoup
 from jsbeautifier import beautify as js_beautify
 
-base_dir = r"E:\repo\!Others\code-readable\pagenote_u"
+base_dir = r"path\to\your\dir" # 你的文件夹路径
 
 class btf:
     def __init__(self, input_file, output_file):
